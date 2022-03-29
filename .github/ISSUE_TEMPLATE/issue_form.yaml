@@ -28,11 +28,11 @@ body:
     label: Additional context
     description: |
       Links, screenshots, videos, or anything that may help us to understand and resolve the issue you are encountering.
-
+    placeholder: |
       Consider also attaching the following log files:
       - /var/log/installer/ubuntu_desktop_installer.log
       - /var/log/installer/subiquity-server-debug.log
-
-      Tip: You can drag and drop to attach files.
   validations:
     required: false
+- type: markdown
+  value: "Tip: You can drag and drop to attach files."
