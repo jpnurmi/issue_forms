@@ -3,10 +3,16 @@ description: Something went wrong.
 body:
 - type: textarea
   attributes:
-    label: Description
-    description: A clear and concise description of what went wrong.
+    label: What happened?
+    description: A concise description of what went wrong.
   validations:
-    required: true
+    required: false
+- type: textarea
+  attributes:
+    label: What was expected?
+    description: A concise description of what was expected to happen.
+  validations:
+    required: false
 - type: textarea
   attributes:
     label: Steps to reproduce
@@ -19,37 +25,10 @@ body:
     required: false
 - type: textarea
   attributes:
-    label: Expected results
-    description: What did you expect to happen?
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Actual results
-    description: What actually happened.
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Environment
-    description: |
-      examples:
-        - **OS**: Ubuntu 20.04
-        - **Node**: 13.14.0
-        - **npm**: 7.6.3
-    value: |
-        - OS:
-        - Node:
-        - npm:
-    render: markdown
-  validations:
-    required: false
-- type: textarea
-  attributes:
     label: Additional context
     description: |
       Logs? Links? References? Screenshots? Videos? Anything that will help us to better understand the issue you are encountering!
-
-      Tip: You can drag and drop to attach files.
   validations:
     required: false
+- type: markdown
+  - value: Tip: You can drag and drop to attach files.
