@@ -35,4 +35,5 @@ body:
   validations:
     required: false
 - type: markdown
-  value: "Tip: You can drag and drop to attach files."
+  attributes:
+    value: "Tip: You can drag and drop to attach files."
