@@ -1,6 +1,5 @@
 name: Bug form
 description: Something went wrong.
-title: ''
 body:
 - type: textarea
   attributes:
