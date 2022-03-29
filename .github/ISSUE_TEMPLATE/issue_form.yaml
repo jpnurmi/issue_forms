@@ -28,8 +28,7 @@ body:
     label: Additional context
     description: |
       Logs? Links? References? Screenshots? Videos? Anything that will help us to better understand the issue you are encountering!
+      
+      Tip: You can drag and drop to attach files.
   validations:
     required: false
-- type: markdown
-  value: |
-    Tip: You can drag and drop to attach files.
