@@ -31,4 +31,5 @@ body:
   validations:
     required: false
 - type: markdown
-  value: Tip: You can drag and drop to attach files.
+  value: |
+    Tip: You can drag and drop to attach files.
