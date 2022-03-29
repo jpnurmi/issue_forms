@@ -1,6 +1,9 @@
----
-name: Form template
-about: Describe this issue template's purpose here.
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - octocat
 body:
   - type: markdown
     attributes:
@@ -57,4 +60,3 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
----
