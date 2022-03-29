@@ -27,8 +27,12 @@ body:
   attributes:
     label: Additional context
     description: |
-      Logs? Links? References? Screenshots? Videos? Anything that will help us to better understand the issue you are encountering!
-      
+      Links, screenshots, videos, or anything that may help us to understand and resolve the issue you are encountering.
+
+      Consider also attaching the following log files:
+      - /var/log/installer/ubuntu_desktop_installer.log
+      - /var/log/installer/subiquity-server-debug.log
+
       Tip: You can drag and drop to attach files.
-  validations:
+validations:
     required: false
