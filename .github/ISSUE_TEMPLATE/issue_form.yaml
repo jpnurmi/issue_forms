@@ -27,6 +27,3 @@ body:
     placeholder: |
       - /var/log/installer/ubuntu_desktop_installer.log
       - /var/log/installer/subiquity-server-debug.log
-- type: markdown
-  attributes:
-    value: "Tip: You can drag and drop to attach files."
