@@ -1,0 +1,14 @@
+name: Feature request
+description: Suggest an idea.
+body:
+- type: textarea
+  attributes:
+    label: Description
+    description: A concise description of the feature.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Additional context
+    description: |
+      Links, screenshots, videos, or anything that may help us to implement the feature.
