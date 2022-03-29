@@ -1,5 +1,5 @@
 ---
-name: Bug Report
+name: Form template
 about: Create a report to help us improve
 description: File a bug report
 title: "[Bug]: "
