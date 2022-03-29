@@ -1,4 +1,4 @@
-name: Bug form
+name: Bug report
 description: Something went wrong.
 body:
 - type: textarea
