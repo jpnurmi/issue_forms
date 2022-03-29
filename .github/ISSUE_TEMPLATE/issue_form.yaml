@@ -34,5 +34,5 @@ body:
       - /var/log/installer/subiquity-server-debug.log
 
       Tip: You can drag and drop to attach files.
-validations:
+  validations:
     required: false
